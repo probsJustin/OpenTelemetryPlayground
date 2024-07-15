@@ -22,3 +22,7 @@ To Run:
 ````
 docker-compose up
 ````
+To Access: 
+```
+http://localhost:16686
+```
