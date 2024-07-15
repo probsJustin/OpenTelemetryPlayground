@@ -26,3 +26,14 @@ To Access:
 ```
 http://localhost:16686
 ```
+### Grafana: 
+
+Ports: Exposes Grafana on port 3000, so you can access it at http://localhost:3000.
+Environment: Sets up an admin password (change "yourpassword" to something secure) and disables sign-ups.
+Volumes: Maps a volume for Grafana data to ensure data persists across container restarts.
+Restart: Configures the container to restart unless manually stopped.
+
+To Run: 
+````
+docker-compose up
+````
