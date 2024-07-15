@@ -37,3 +37,8 @@ To Run:
 ````
 docker-compose up
 ````
+
+To Access: 
+```
+Once the container is running, you can access Grafana by visiting http://localhost:3000 on your web browser.
+The default username is admin, and the password will be what you set for GF_SECURITY_ADMIN_PASSWORD in the docker-compose file.```
