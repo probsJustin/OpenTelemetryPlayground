@@ -1,5 +1,8 @@
 # OpenTelemetryPlayground
 
+This repository serves as a comprehensive guide and toolkit for setting up a robust observability stack using Grafana, Python applications instrumented with OpenTelemetry, the OpenTelemetry Collector, and Jaeger. The goal is to provide a practical, hands-on environment where you can experiment with instrumenting applications, collecting telemetry data, and visualizing it in meaningful ways.
+
+
 ### Flask Application: 
 
 To Build: 
