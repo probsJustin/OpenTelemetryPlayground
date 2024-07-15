@@ -23,9 +23,11 @@ To Run:
 docker-compose up
 ````
 To Access: 
-```
+````
 http://localhost:16686
-```
+````
+
+
 ### Grafana: 
 
 Ports: Exposes Grafana on port 3000, so you can access it at http://localhost:3000.
@@ -42,14 +44,13 @@ To Access:
 ```
 Once the container is running, you can access Grafana by visiting http://localhost:3000 on your web browser.
 The default username is admin, and the password will be what you set for GF_SECURITY_ADMIN_PASSWORD in the docker-compose file.```
-
+```
 ### OpenTelemetry Collector: 
 
 To Build and Run: 
 ```
 docker build -t my-otel-collector .
 docker run -p 4317:4317 -p 4318:4318 -p 55681:55681 my-otel-collector
-
 ```
 
 
